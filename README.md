@@ -110,28 +110,6 @@ Required, except for statically imported images, or those with  [`layout="fill"`
 
 [For information about image optimization](https://nextjs.org/docs/api-reference/next/image)
 
-**Tailwind plugin scrollbar hide feature**
-
-#using npm
-
-npm install tailwind-scrollbar-hide
-
-# Using Yarn
-yarn add tailwind-scrollbar-hide
-
-
-Then add the plugin to your  `tailwind.config.js`  file:
-
-// tailwind.config.js
-module.exports = {
-  theme: {
-    // ...
-  },
-  plugins: [
-    require('tailwind-scrollbar-hide')
-    // ...
-  ]
-}
 
 
 ***installing next auth ***
